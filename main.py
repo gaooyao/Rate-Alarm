@@ -3,12 +3,9 @@ import requests
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
 
-from inquire import *
-from alarm import *
-import time
-
+from inquire import inquire
+from alarm import alarm
 
 if __name__ == "__main__":
     while True:
         alarm(inquire())
-        time.sleep(43200)

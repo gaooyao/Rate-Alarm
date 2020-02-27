@@ -6,7 +6,6 @@ import random
 
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
-from main import *
 
 from config import PHONE_NUMBER, ACCESS_KEY_ID, ACCESS_SECRET
 
