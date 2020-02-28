@@ -7,5 +7,4 @@ from inquire import inquire
 from alarm import alarm
 
 if __name__ == "__main__":
-    while True:
-        alarm(inquire())
+    alarm(inquire())
