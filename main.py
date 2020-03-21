@@ -3,8 +3,8 @@ import requests
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
 
-from inquire import inquire
+from inquire import icbcInquire,cmbInquire
 from alarm import alarm
 
 if __name__ == "__main__":
-    alarm(inquire())
+    alarm(cmbInquire())
